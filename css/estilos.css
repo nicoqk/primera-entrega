@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+header{
+    margin: 25px auto;
+    width: 1000px;
+    display: block;
+}
+
+header div{
+    display: inline-block;
+}
+
+nav{
+    display: inline-block;
+    margin-left: 50px;
+    
+}
+
+nav ul{
+    list-style: none;
+
+}
+
+nav ul li{
+    display: inline-block;
+    position: relative;
+    font-size: 1.2rem;
+    padding: 8px;
+}
+nav ul li a{
+   text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+main{
+    display: block;
+    margin: 25px auto;
+    width: 1000px;    
+}
+
+footer{
+    margin: 0 auto;
+    width: 1000px;
+    height: 80px;
+    background-color: rgb(22, 22, 22);
+    display: block;
+}
+
+footer h4{
+    text-align: center;
+    color: aliceblue;
+    padding: 15px;
+}
+
+/*Estilos Index*/
+
+.slide{
+    display: block;
+    width: 1000px;
+}
+
+.articulos{
+    display: block;
+    margin: 20px;
+    text-align: center;
+}
+
+.art{
+    display: inline-block;
+    width: 45%;
+    padding: 15px;
+}
+.art h2{
+    margin-bottom: 15px;
+}
+.art p{
+    margin-top: 15px;
+}
+/*estilos Empresa*/
+.empresa{
+   
+    margin-top: 20px;
+
+}
+.empresa h2{
+    margin-bottom: 15px;
+}
+.imagen{
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+}
+.txt{
+    display: inline;
+    
+}
+
+/*estilos Servicios*/
+.servicio{
+    margin-top: 15px;
+}
+
+ul{
+    display: inline-block;
+    list-style:square;
+    padding-left: 25px;
+}
+
+/*estilos Certificados*/
+
+/*estilos Contacto*/
+
